@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d1efbac.css",
+    "main.css": "/static/css/main.28b08ee1.css",
     "main.js": "/static/js/main.bb254b80.js",
     "static/media/EZMealsThumb.png": "/static/media/EZMealsThumb.a6b4170ea032f59988fe.png",
     "static/media/ccsalsa-redesign.jpg": "/static/media/ccsalsa-redesign.f09f174bd86f395de4b5.jpg",
@@ -35,11 +35,11 @@
     "static/media/p-thumb.jpg": "/static/media/p-thumb.961e6c6a98cf2f4e426c.jpg",
     "static/media/Hello.png": "/static/media/Hello.602228eb870519d36f4d.png",
     "index.html": "/index.html",
-    "main.3d1efbac.css.map": "/static/css/main.3d1efbac.css.map",
+    "main.28b08ee1.css.map": "/static/css/main.28b08ee1.css.map",
     "main.bb254b80.js.map": "/static/js/main.bb254b80.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d1efbac.css",
+    "static/css/main.28b08ee1.css",
     "static/js/main.bb254b80.js"
   ]
 }
