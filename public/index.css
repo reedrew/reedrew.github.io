@@ -1,0 +1,6 @@
+/* GOOGLE FONT | Josefin Sans by Santiago Orozco */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+
+.header a.active {
+	font-weight: bold;
+}
