@@ -147,7 +147,8 @@ h2 span {
 	margin-bottom: 1rem;
 }
 .project-list-item img {
-	width: 450px;
+	width: 100%;
+	max-width: 450px;
 }
 .project-nav {
 	margin: 2rem 0;
@@ -167,8 +168,10 @@ h2 span {
 .project-info h2 {
 	font-size: xxx-large;
 	margin: 0 auto;
+	text-align: center;
 }
 .project-info img {
+	width: 100%;
 	max-width: 800px;
 	margin: 2em auto;
 }
