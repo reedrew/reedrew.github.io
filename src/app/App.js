@@ -25,40 +25,13 @@ function App() {
 				<Header />
 				<main>
 					<Switch>
-						<Route
-							exact
-							path='/projects/design/crazy-charlies-salsa'>
-							<CCSalsa />
-						</Route>
-						<Route
-							exact
-							path='/projects/design/cosmic-curiosities'>
-							<CosmicCur />
-						</Route>
-						<Route
-							exact
-							path='/projects/design/p'>
-							<Letterform />
-						</Route>
-						{/* programming component routes */}
-						<Route
-							exact
-							path='/projects/programming/ez-meals'>
-							<EZMeals />
-						</Route>
-						<Route
-							exact
-							path='/projects/programming/outdoor-adventures'>
-							<OutdoorAdventures />
-						</Route>
-						<Route
-							exact
-							path='/projects/design'>
+						<Route path='/projects/design/:projectName'>
 							<Projects />
 						</Route>
-						<Route
-							exact
-							path='/projects/programming'>
+						<Route path='/projects/design'>
+							<Projects />
+						</Route>
+						<Route path='/projects/programming'>
 							<Projects />
 						</Route>
 						<Route
