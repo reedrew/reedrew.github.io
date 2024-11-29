@@ -12,8 +12,12 @@ import Home from '../components/Home';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
+// project pages
 import CCSalsa from '../components/project-pages/CCSalsa';
-
+import CosmicCur from '../components/project-pages/CosmicCur';
+import Letterform from '../components/project-pages/P';
+import EZMeals from '../components/project-pages/EZMeals';
+import OutdoorAdventures from '../components/project-pages/OutdoorAdventures';
 function App() {
 	return (
 		<Router>
@@ -23,19 +27,51 @@ function App() {
 					<Switch>
 						<Route
 							exact
+							path='/projects/design/crazy-charlies-salsa'>
+							<CCSalsa />
+						</Route>
+						<Route
+							exact
+							path='/projects/design/cosmic-curiosities'>
+							<CosmicCur />
+						</Route>
+						<Route
+							exact
+							path='/projects/design/p'>
+							<Letterform />
+						</Route>
+						{/* programming component routes */}
+						<Route
+							exact
+							path='/projects/programming/ez-meals'>
+							<EZMeals />
+						</Route>
+						<Route
+							exact
+							path='/projects/programming/outdoor-adventures'>
+							<OutdoorAdventures />
+						</Route>
+						<Route
+							exact
+							path='/projects/design'>
+							<Projects />
+						</Route>
+						<Route
+							exact
+							path='/projects/programming'>
+							<Projects />
+						</Route>
+						<Route
+							exact
 							path='/'>
 							<Home />
 						</Route>
 						<Route path='/about'>
 							<About />
 						</Route>
-						<Route exact path='/projects/design'>
-							<Projects />
-						</Route>
-						<Route exact path='/projects/programming'>
-							<Projects />
-						</Route>
-						<Route exact path='/contact'>
+						<Route
+							exact
+							path='/contact'>
 							<Contact />
 						</Route>
 					</Switch>
