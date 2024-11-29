@@ -25,13 +25,10 @@ function App() {
 				<Header />
 				<main>
 					<Switch>
-						<Route path='/projects/design/:projectName'>
+						<Route path='/projects/:projectCategory/:projectName'>
 							<Projects />
 						</Route>
-						<Route path='/projects/design'>
-							<Projects />
-						</Route>
-						<Route path='/projects/programming'>
+						<Route path='/projects/:projectCategory'>
 							<Projects />
 						</Route>
 						<Route
