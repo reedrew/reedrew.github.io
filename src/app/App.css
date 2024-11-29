@@ -198,9 +198,6 @@ footer {
 	justify-self: flex-end;
 	margin-top: auto;
 }
-.footer-contact-link {
-	color: white;
-}
 footer a {
 	text-decoration: underline;
 }
