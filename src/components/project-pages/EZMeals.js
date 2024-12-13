@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-	useHistory,
 	Link,
 	Redirect,
 } from 'react-router-dom/cjs/react-router-dom.min';
@@ -9,8 +8,6 @@ import Poster from '../../assets/projectImages/ez-meals/ezmeals-poster.jpg';
 import Image from '../../assets/projectImages/ez-meals/EZMealsThumb.png';
 
 export default function EZMeals() {
-	const history = useHistory();
-
 	const goUp = () => {
 		window.scrollTo(0, 0);
 	};

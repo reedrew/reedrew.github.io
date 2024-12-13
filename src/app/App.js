@@ -18,6 +18,7 @@ import CosmicCur from '../components/project-pages/CosmicCur';
 import Letterform from '../components/project-pages/P';
 import EZMeals from '../components/project-pages/EZMeals';
 import OutdoorAdventures from '../components/project-pages/OutdoorAdventures';
+import Grenadine from '../components/project-pages/Grenadine';
 function App() {
 	return (
 		<Router>

@@ -13,12 +13,14 @@ import CosmicCur from './project-pages/CosmicCur';
 import PAbstractPage from './project-pages/P';
 import EZMeals from './project-pages/EZMeals';
 import OutdoorAdventures from './project-pages/OutdoorAdventures';
+import Grenadine from './project-pages/Grenadine';
 // project images
 import CCSalsa from '../assets/projectImages/cc-salsa/CCSalsaThumb.jpg';
 import CosCur from '../assets/projectImages/cosmic-curiosities/cc-thumb.jpg';
 import PAbstract from '../assets/projectImages/p/p-thumb.jpg';
 import EZMealsThumb from '../assets/projectImages/ez-meals/ezmeals-thumb.jpg';
 import OutdoorThumb from '../assets/projectImages/outdoor-adventures/outdoor-adv-thumb.png';
+import TypeSpecThumb from '../assets/projectImages/grenadine/type-spec-cover.jpg';
 
 export default function Projects() {
 	// <Redirect to='/projects/design' />;
@@ -45,6 +47,11 @@ export default function Projects() {
 							exact
 							path='/projects/design/p'>
 							<PAbstractPage />
+						</Route>
+						<Route
+							exact
+							path='/projects/design/type-specimen'>
+							<Grenadine />
 						</Route>
 						{/* programming component routes */}
 						<Route
@@ -85,6 +92,11 @@ export default function Projects() {
 										src={PAbstract}
 										alt='an abstracted form of the letter P.'
 									/>
+								</Link>
+								<Link
+									className='project-list-item'
+									to='/projects/design/type-specimen'>
+									<img src={TypeSpecThumb} />
 								</Link>
 							</div>
 						</Route>
