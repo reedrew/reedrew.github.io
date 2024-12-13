@@ -86,7 +86,7 @@ export default function Grenadine() {
 				</svg>
 			</Link>
 
-			<h2>MVB Grenadine Type Specimen</h2>
+			<h2>"MVB Grenadine" Type Specimen</h2>
 
 			<SimpleSlider />
 		</div>
