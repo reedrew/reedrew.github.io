@@ -173,7 +173,7 @@ h2 span {
 }
 .project-info img {
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 2em auto;
 }
 .project-info p {
@@ -190,12 +190,15 @@ h2 span {
 	max-width: 400px;
 }
 .slider-img {
-	object-fit: fill;
+	max-width: 100%;
 }
 .slick-prev:before,
 .slick-next:before {
 	color: black !important;
 	font-size: 20px !important;
+}
+.slider-container {
+	width: 100%;
 }
 /*******************/
 /* Footer */
