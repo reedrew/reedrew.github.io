@@ -14,6 +14,7 @@ import PAbstractPage from './project-pages/P';
 import EZMeals from './project-pages/EZMeals';
 import OutdoorAdventures from './project-pages/OutdoorAdventures';
 import Grenadine from './project-pages/Grenadine';
+import Puzleton from './project-pages/Puzleton';
 // project images
 import CCSalsa from '../assets/projectImages/cc-salsa/CCSalsaThumb.jpg';
 import CosCur from '../assets/projectImages/cosmic-curiosities/cc-thumb.jpg';
@@ -21,6 +22,7 @@ import PAbstract from '../assets/projectImages/p/p-thumb.jpg';
 import EZMealsThumb from '../assets/projectImages/ez-meals/ezmeals-thumb.jpg';
 import OutdoorThumb from '../assets/projectImages/outdoor-adventures/outdoor-adv-thumb.png';
 import TypeSpecThumb from '../assets/projectImages/grenadine/type-spec-cover.jpg';
+import PuzletonThumb from '../assets/projectImages/puzleton/P3_Zine_Thumb.jpg'
 
 export default function Projects() {
 	// <Redirect to='/projects/design' />;
@@ -52,6 +54,9 @@ export default function Projects() {
 							exact
 							path='/projects/design/type-specimen'>
 							<Grenadine />
+						</Route>
+						<Route exact path='/projects/design/puzleton'>
+							<Puzleton />
 						</Route>
 						{/* programming component routes */}
 						<Route
@@ -97,6 +102,9 @@ export default function Projects() {
 									className='project-list-item'
 									to='/projects/design/type-specimen'>
 									<img src={TypeSpecThumb} />
+								</Link>
+								<Link className='project-list-item' to='/projects/design/puzleton'>
+									<img src={PuzletonThumb} />
 								</Link>
 							</div>
 						</Route>
